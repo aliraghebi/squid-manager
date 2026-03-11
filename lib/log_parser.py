@@ -2,7 +2,7 @@ import os, gzip, re
 from datetime import datetime, timedelta
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from utils.config import LOG_DIR, LOG_PREFIX, PERIODS
+from lib.config import LOG_DIR, LOG_PREFIX, PERIODS
 
 LINE_RE = re.compile(
     rb"^(?P<ts>\d+)\s+"

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import sys
 import curses
-from utils.tui import setup_colors, user_list_screen, draw_help
-from utils.user_mgmt import add_user, change_password, delete_user
+from lib.tui import setup_colors, user_list_screen, draw_help
+from lib.user_mgmt import add_user, change_password, delete_user
 
 MENU_ITEMS = ["User List", "Create User", "Change Password", "Delete User", "Quit"]
 

@@ -3,7 +3,7 @@ import curses
 import secrets
 import string
 from subprocess import run, DEVNULL
-from utils.config import PASSWD_FILE
+from lib.config import PASSWD_FILE
 from lib.utils import COLORS
 
 # ----------------- Backend -----------------

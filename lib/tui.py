@@ -1,8 +1,8 @@
 import curses
-from utils.config import PERIODS
-from utils.utils import fmt_bytes
-from utils.log_parser import load_usage
-from utils.user_mgmt import list_users, run_htpasswd
+from lib.config import PERIODS
+from lib.utils import fmt_bytes
+from lib.log_parser import load_usage
+from lib.user_mgmt import list_users, run_htpasswd
 
 # ------------------ COLORS ----------------
 COLORS = {}
